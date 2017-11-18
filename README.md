@@ -43,6 +43,7 @@ Can be either a key string or a function that transforms a suggestion object int
 - `inputId` - The Id of the generated input field. (required)
 - `placeholder` - The input's placeholder. (optional)
 - `hitsPerPage` - The number of results that your search will produce. Default is 10. (optional)
+- `facetFilters` - The filters that can be set for default refinement (optional)
 - `defaultValue` - The input's initial value will be set to the value of this prop. (optional)
 - `options` - Pass any other [autocomplete.js](https://github.com/algolia/autocomplete.js) option through this object prop. (optional)
 
@@ -57,5 +58,3 @@ Any other React prop can be passed through `otherProps`
 - `cursorchanged` – Triggered when the dropdown menu cursor is moved to a different suggestion. The event handler will be invoked with 3 arguments: the event object, the suggestion object, and the name of the dataset the suggestion belongs to. (optional)
 - `selected` – Triggered when a suggestion from the dropdown menu is selected. The event handler will be invoked with 3 arguments: the event object, the suggestion object, and the name of the dataset the suggestion belongs to. (optional)
 - `autocompleted` – Triggered when the query is autocompleted. Autocompleted means the query was changed to the hint. The event handler will be invoked with 3 arguments: the event object, the suggestion object, and the name of the dataset the suggestion belongs to. (optional)
-
-
