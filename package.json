@@ -92,8 +92,8 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "algoliasearch": "^3.22.1",
-    "autocomplete.js": "^0.28.1",
+    "algoliasearch": "^3.19.0",
+    "autocomplete.js": "^0.22.0",
     "deep-assign": "^2.0.0",
     "prop-types": "^15.5.8"
   },
